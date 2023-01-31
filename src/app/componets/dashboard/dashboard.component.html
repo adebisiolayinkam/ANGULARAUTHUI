@@ -1,0 +1,10 @@
+<nav class="navbar navbar-light bg-light justify-content-between">
+    <a class="navbar-brand">Angular AUTH</a>
+   <div>
+    <h4>Hello, {{fullName}}</h4>
+   </div>
+   <!-- <button (click)="logout()" class="btn btn-danger">Log Out</button> -->
+  </nav>
+  <ul *ngFor="let user of users">
+    <li>{{user.username}}</li>
+</ul>
